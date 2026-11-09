@@ -39,7 +39,7 @@ proxies:
   down: 55 Mbps
 - name: 🇫🇷 FR-HYSTERIA-4
   type: hysteria
-  server: 62.210.70.191
+  server: 62.210.28.175
   port: 24667
   auth-str: dongtaiwang.com
   sni: bing.com
@@ -76,6 +76,18 @@ proxies:
 - name: 🇺🇸 US-HYSTERIA-7
   type: hysteria
   server: 137.175.82.44
+  port: 20022
+  password: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: 11
+  down: 55
+- name: 🇺🇸 US-HYSTERIA-8
+  type: hysteria
+  server: 137.175.82.44
   port: 443
   password: dongtaiwang.com
   auth-str: dongtaiwang.com
@@ -85,7 +97,7 @@ proxies:
   - h3
   up: 11
   down: 55
-- name: 🇫🇷 FR-HYSTERIA2-8
+- name: 🇫🇷 FR-HYSTERIA2-9
   type: hysteria2
   server: 2001:bc8:32d7:17b::3
   port: 22000
@@ -95,7 +107,7 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: 🌐 UNK-HYSTERIA-9
+- name: 🌐 UNK-HYSTERIA-10
   type: hysteria
   server: fan.193919.xyz
   port: 55443
@@ -107,29 +119,22 @@ proxies:
   - h3
   up: 11
   down: 55
-- name: 🌐 UNK-HYSTERIA-10
+- name: 🌐 UNK-HYSTERIA-11
   type: hysteria
   server: 142.249.37.83
-  port: 22222
+  port: 33333
   password: dongtaiwang.com
   auth-str: dongtaiwang.com
-  sni: www.bing.com
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
   up: 11
   down: 55
-- name: 🌐 UNK-NAIVE-11
+- name: 🌐 UNK-NAIVE-12
   type: http
   server: fan.193919.xyz
   port: 33556
-  username: dongtaiwang.com
-  password: dongtaiwang.com
-  tls: true
-- name: 🌐 UNK-NAIVE-12
-  type: http
-  server: hk.336892.xyz
-  port: 33550
   username: dongtaiwang.com
   password: dongtaiwang.com
   tls: true
